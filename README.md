@@ -1,63 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Travel city map - frontend
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Описание приложения
+Клиентское приложение встречает нас экраном предпочтений, которые будут учтены при последующем использовании
 
-## Setup
+В меню можно перейти в отдельным категории и по категориям найти удобные места для их посещений
 
-Make sure to install the dependencies:
+Так же можно распланировать и выбрать оптимальный маршрут исходя из точек интереса пользователя, что позволит ему свободно пользоваться новым местом и городом, куда он прибыл
 
-```bash
-# npm
-npm install
+Для удобства есть связь с местными сервисами
 
-# pnpm
-pnpm install
+## Технологический стек
 
-# yarn
-yarn install
-```
+### Язык - Javascript
+`nuxt-3` `typescript` `pinia` `sass`
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
